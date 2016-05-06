@@ -1,4 +1,4 @@
-var app = angular.module("ggdsite", ["ngRoute", "firebase"]);
+var app = angular.module("ggdsite", ["ngRoute"]);
 
 app.config(['$routeProvider',
   function($routeProvider) {
