@@ -6,7 +6,10 @@ $http.get(url).then(function(response) {
   console.log("response", response.data);
 });
 
-
+var url = "https://www.eventbriteapi.com/v3/users/me/owned_events/?token=RMM3VY3TF2WHZB76TNSF";
+$http.get(url).then(function(response) {
+  console.log("response", response.data);
+});
 
 // function getLiveEvents() {
 //     return $http.get(url, {
