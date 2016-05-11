@@ -1,5 +1,7 @@
 <div>
     <h1>Welcome to Girl Geek Dinner's New Website!!</h1>
 
-    <div>"This is the first event:  "{{eventText}}</div>
+    <div>Here are all our events:</div>
+    <div ng-repeat="object in dataEvents">{{object.name.text}}</div>
 </div>
+
