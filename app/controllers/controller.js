@@ -11,23 +11,7 @@ $http.get(url).then(function(response) {
   console.log("response", response.data.events);
 $scope.dataEvents = response.data.events;
 $scope.dataEventFirst = response.data.events[0].name.text;
-console.log("scope ", $scope.dataEvents);
 });
-
-// function getLiveEvents() {
-//     return $http.get(url, {
-//         cache: true,
-//         headers: {
-//             'Authorization': 'Bearer Y5R3SQRPRZBULIHYQHTD',
-//             'Content-Type': 'application/x-www-form-urlencoded',
-//             'Accept': '*/*',
-//         }
-//     }).then(function (response) {
-//         return response.data;
-//     });
-// }
-
-
 
 
  // var ref = new Firebase("https://crackling-fire-8515.firebaseio.com/");
